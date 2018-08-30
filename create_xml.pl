@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# Turn a tab delimited file into an XML structure
+# This works for a specific input file type I was given by a client
+# You pass the file name as an argument to this is program and it creates an XML file
+# I'm sure there are many more elegant ways of getting this done, but it worked for me at the time.
 
 use strict;
 use warnings;
